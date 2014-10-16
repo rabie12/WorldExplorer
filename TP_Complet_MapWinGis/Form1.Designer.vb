@@ -50,15 +50,22 @@ Partial Class Form1
         '
         'CheckedListBox1
         '
-        Me.CheckedListBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.CheckedListBox1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.CheckedListBox1.CheckOnClick = True
         Me.CheckedListBox1.FormattingEnabled = True
+        Me.CheckedListBox1.Items.AddRange(New Object() {"World", "City"})
         Me.CheckedListBox1.Location = New System.Drawing.Point(0, 50)
         Me.CheckedListBox1.Name = "CheckedListBox1"
-        Me.CheckedListBox1.Size = New System.Drawing.Size(170, 184)
+        Me.CheckedListBox1.Size = New System.Drawing.Size(170, 439)
         Me.CheckedListBox1.TabIndex = 1
         '
         'AxMap1
         '
+        Me.AxMap1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.AxMap1.Enabled = True
         Me.AxMap1.Location = New System.Drawing.Point(176, 50)
         Me.AxMap1.Name = "AxMap1"
