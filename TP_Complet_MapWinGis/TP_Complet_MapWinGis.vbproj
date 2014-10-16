@@ -142,6 +142,18 @@
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Data\1413516823_zoomin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Data\1413516926_zoomout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Data\1413516995_Globe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Data\1413517099_icon_33_three_fingers_double_tap-16.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

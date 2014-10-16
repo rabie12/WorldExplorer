@@ -43,13 +43,26 @@ Public Class Form1
 
     Private Sub ToolStripButton1_Click(sender As Object, e As EventArgs) Handles ToolStripButton1.Click, ToolStripButton3.Click, ToolStripButton2.Click
 
-        For i As Integer = 0 To ToolStrip1.Items.Count - 1
+        For i As Integer = 0 To ToolStrip1.Items.Count - 2
             ToolStrip1.Items(i).Enabled = True
         Next
 
         Dim btn As ToolStripButton = sender
         btn.Enabled = Not btn.Enabled
+        Select Case btn.Text
+            Case "zoomIn"
+                AxMap1.CursorMode = tkCursorMode.cmZoomIn
+            Case "zoomOut"
+                AxMap1.CursorMode = tkCursorMode.cmZoomOut
+            Case "pan"
+                AxMap1.CursorMode = tkCursorMode.cmPan
+            
+        End Select
 
 
+    End Sub
+
+    Private Sub ToolStripButton4_Click(sender As Object, e As EventArgs) Handles ToolStripButton4.Click
+        AxMap1.ZoomToMaxExtents()
     End Sub
 End Class
