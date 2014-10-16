@@ -12,3 +12,4 @@ D:\Projets\SIG\MapWinGis_V4.7\TP_Complet_MapWinGis\TP_Complet_MapWinGis\obj\Debu
 D:\Projets\SIG\MapWinGis_V4.7\TP_Complet_MapWinGis\TP_Complet_MapWinGis\obj\Debug\TP_Complet_MapWinGis.exe
 D:\Projets\SIG\MapWinGis_V4.7\TP_Complet_MapWinGis\TP_Complet_MapWinGis\obj\Debug\TP_Complet_MapWinGis.xml
 D:\Projets\SIG\MapWinGis_V4.7\TP_Complet_MapWinGis\TP_Complet_MapWinGis\obj\Debug\TP_Complet_MapWinGis.pdb
+D:\Projets\SIG\MapWinGis_V4.7\TP_Complet_MapWinGis\TP_Complet_MapWinGis\obj\Debug\TP_Complet_MapWinGis.changeColor.resources

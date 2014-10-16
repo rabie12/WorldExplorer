@@ -3,6 +3,14 @@
 Public Class Form1
     Dim sfWorld As New Shapefile
     Dim sfCity As New Shapefile
+    Private color As UInt32
+    Public Sub set_color(color As UInt32)
+        Me.color = color
+    End Sub
+    Public Function get_color()
+        Return Me.color
+
+    End Function
     Private Sub checkAll()
         '' c'est une procedure qui permet de checker tout les composant du CheckBoxList
         For i As Integer = 0 To CheckedListBox1.Items.Count - 1
@@ -64,5 +72,9 @@ Public Class Form1
 
     Private Sub ToolStripButton4_Click(sender As Object, e As EventArgs) Handles ToolStripButton4.Click
         AxMap1.ZoomToMaxExtents()
+    End Sub
+
+    Private Sub ChangerCouleurToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ChangerCouleurToolStripMenuItem.Click
+        changeColor.Show()
     End Sub
 End Class

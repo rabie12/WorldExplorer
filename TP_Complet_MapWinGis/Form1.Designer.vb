@@ -36,6 +36,7 @@ Partial Class Form1
         Me.ToolStripButton2 = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripButton3 = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripButton4 = New System.Windows.Forms.ToolStripButton()
+        Me.ChangerCouleurToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         CType(Me.AxMap1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
         Me.ToolStrip1.SuspendLayout()
@@ -91,6 +92,7 @@ Partial Class Form1
         '
         'EditionToolStripMenuItem
         '
+        Me.EditionToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ChangerCouleurToolStripMenuItem})
         Me.EditionToolStripMenuItem.Name = "EditionToolStripMenuItem"
         Me.EditionToolStripMenuItem.Size = New System.Drawing.Size(56, 20)
         Me.EditionToolStripMenuItem.Text = "Edition"
@@ -153,6 +155,12 @@ Partial Class Form1
         Me.ToolStripButton4.Size = New System.Drawing.Size(23, 22)
         Me.ToolStripButton4.Text = "zoomMax"
         '
+        'ChangerCouleurToolStripMenuItem
+        '
+        Me.ChangerCouleurToolStripMenuItem.Name = "ChangerCouleurToolStripMenuItem"
+        Me.ChangerCouleurToolStripMenuItem.Size = New System.Drawing.Size(162, 22)
+        Me.ChangerCouleurToolStripMenuItem.Text = "Changer couleur"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -188,5 +196,6 @@ Partial Class Form1
     Friend WithEvents ToolStripButton2 As System.Windows.Forms.ToolStripButton
     Friend WithEvents ToolStripButton3 As System.Windows.Forms.ToolStripButton
     Friend WithEvents ToolStripButton4 As System.Windows.Forms.ToolStripButton
+    Friend WithEvents ChangerCouleurToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 
 End Class
